@@ -59,8 +59,8 @@ TAIL=`which tail`
 
 BINARY=""
 TMPBINARY=$(mktemp /tmp/XXXXXX)
-DUMPFILE=""
-STRINGFILE=""
+DUMPFILE="$(mktemp /tmp/XXXXXX)"
+STRINGFILE="$(mktemp /tmp/XXXXXX)"
 CALLFILE=$(mktemp /tmp/XXXXXX)
 CALLADDRFILE=$(mktemp /tmp/XXXXXX)
 CALLSIZEFILE=$(mktemp /tmp/XXXXXX)
